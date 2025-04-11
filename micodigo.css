@@ -1,0 +1,44 @@
+
+
+/* Pantallas entre 0px y 400px */
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    body {
+        background-color: cyan;
+    }
+}
+
+/* Pantallas entre 401px y 700px */
+@media screen and (min-width: 401px) and (max-width: 700px) {
+    body {
+        background-color: chocolate;
+    }
+}
+
+/* Pantallas entre 701px y 1000px */
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+    body {
+        background-color: dodgerblue;
+    }
+}
+
+/* Pantallas más grandes que 1000px */
+@media screen and (min-width: 1001px) {
+    body {
+        background-color: lightsteelblue;
+    }
+}
+
+
+.boton-estilo {
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #333;
+    transition: 0.3s;
+}
+
